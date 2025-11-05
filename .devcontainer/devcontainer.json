@@ -1,7 +1,7 @@
 
 {
   "name": "Module 7: ENG 298 (FA 25): Module 7: Pre-Class Lab Prep: Introduction to GitHub and Codespaces",
-  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
