@@ -1,12 +1,14 @@
-
 {
-  "name": "Module 7: ENG 298 (FA 25): Module 7: Pre-Class Lab Prep: Introduction to GitHub and Codespaces",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "name": "ENG 298 (FA 25) – Module 7: Pre-Class Lab Prep: GitHub & Codespaces",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 
   "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
     "ghcr.io/devcontainers/features/python:1": {
       "version": "3.11"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": false,
+      "upgradePackages": true
     }
   },
 
@@ -22,7 +24,9 @@
       ],
       "settings": {
         "editor.tabSize": 2,
-        "files.trimTrailingWhitespace": true
+        "files.trimTrailingWhitespace": true,
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "python.defaultInterpreterPath": "/usr/local/bin/python3"
       }
     }
   },
