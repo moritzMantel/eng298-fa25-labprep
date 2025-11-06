@@ -54,10 +54,7 @@ This guide walks you through:
    ```
 
 ### Part 4: Making and Committing Changes (10 minutes)
-1. Open `hello.md` and add:
-   ```
-   Hello from [Your Name]! Today is [Date].
-   ```
+1. Open `/docs/hello.md` and follow the directions.
 2. Save, commit, and push your change.
 
 ## Tips & Troubleshooting
